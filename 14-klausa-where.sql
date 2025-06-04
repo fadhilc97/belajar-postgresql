@@ -1,3 +1,9 @@
+-- Hapus tabel siswa
+/* DISCLAIMER: Kedepan tidak akan selalu diawali dengan menghapus tabel,
+karena data yang sudah ada harus tetap dijaga. 
+Ini bertujuan untuk mengulang perintah SQL pada pembahasan sebelumnya. */
+DROP TABLE "Siswa";
+
 -- Buat tabel siswa
 CREATE TABLE "Siswa"(
   "nomor_induk"   VARCHAR(10)   PRIMARY KEY,
