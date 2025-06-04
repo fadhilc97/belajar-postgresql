@@ -24,18 +24,26 @@ INSERT INTO "Siswa" VALUES
 -- Pilih semua data siswa
 SELECT * FROM "Siswa";
 
--- Siswa mana saja yang berjenis kelamin pria ?
+/* 1. Siswa mana saja yang berjenis kelamin pria ? */
 
--- Siswa mana saja yang tinggi badannya minimal 150 cm ? 
+/* 2. Siswa mana saja yang tinggi badannya minimal 150 cm ? */ 
 
--- Untuk keperluan seleksi pertandingan bola basket antar siswa di tingkat kabupaten kategori putra, pelatih menginginkan siswa yang berminat harus memiliki tinggi badan minimal 150 cm. Siapakah yang berpotensi memenuhi persyaratan tersebut ?
+/* 3. Untuk keperluan seleksi pertandingan bola basket antar siswa di tingkat kabupaten kategori putra, 
+pelatih menginginkan siswa yang berminat harus memiliki tinggi badan minimal 150 cm. 
+Siapakah yang berpotensi memenuhi persyaratan tersebut ? */
 
--- Siswa mana saja yang memiliki berat badan berkisar antara 41 sampai dengan 45 kg ?
+/* 4. Siswa mana saja yang memiliki berat badan berkisar antara 41 sampai dengan 45 kg ? */
 
--- Siswa mana saja yang belum terdata alamat tempat tinggalnya ?
+/* 5. Siswa mana saja yang belum terdata alamat tempat tinggalnya ? */
 
--- Pelatih basket memiliki kendala dalam proses seleksi karena partisipasinya yang masih minim. Rupanya, ada beberapa siswa yang belum terdata tinggi badannya. Siapa saja siswa yang belum terdata tinggi badannya ?
+/* 6. Pelatih basket memiliki kendala dalam proses seleksi karena partisipasinya yang masih minim. 
+Rupanya, ada beberapa siswa yang belum terdata tinggi badannya. 
+Siapa saja siswa yang belum terdata tinggi badannya ? */
 
--- Berat badan ideal diukur dengan Index Massa Tubuh atau Body Mass Index (BMI). Index tersebut diperoleh jika diketahui tinggi badan dan berat badan. Dengan data saat ini, siapa saja yang dapat diketahui nilai BMI terlebih dahulu ?
+/* 7. Berat badan ideal diukur dengan Index Massa Tubuh atau Body Mass Index (BMI). 
+Index tersebut diperoleh jika diketahui tinggi badan dan berat badan. 
+Dengan data saat ini, siapa saja yang dapat diketahui nilai BMI terlebih dahulu ? */
 
--- UKS di sekolah tersebut mengadakan pemeriksaan kesehatan rutin untuk seluruh siswa yang terdata. Namun terdapat beberapa siswa yang belum terdata baik tinggi badan maupun berat badannya dan siswa tersebut akan diprioritaskan. Siapa saja siswa yang mendapat prioritas tersebut ?
+/* 8. UKS di sekolah tersebut mengadakan pemeriksaan kesehatan rutin untuk seluruh siswa yang terdata. 
+Namun terdapat beberapa siswa yang belum terdata baik tinggi badan maupun berat badannya dan siswa tersebut akan diprioritaskan. 
+Siapa saja siswa yang mendapat prioritas tersebut ? */
