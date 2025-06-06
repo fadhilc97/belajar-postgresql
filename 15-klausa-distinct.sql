@@ -33,3 +33,4 @@ INSERT INTO "Siswa" VALUES
 SELECT * FROM "Siswa";
 
 -- Apa saja tempat kelahiran dari siswa yang terdaftar ?
+SELECT DISTINCT("tempat_lahir") FROM "Siswa";
