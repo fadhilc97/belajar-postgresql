@@ -1,7 +1,7 @@
 -- Hapus constraint foreign key kolom kode_kelas
 ALTER TABLE "Siswa" DROP CONSTRAINT "Siswa_kode_kelas_fkey";
 
--- Tambahkan constraint kolom_kelas sebagai foreign key dengan aturan:
+-- Tambahkan constraint kode_kelas sebagai foreign key dengan aturan:
 -- 1. Ketika data utama di tabel kelas dihapus, data foreign key siswa yang menggunakan kode kelas tersebut juga terhapus
 -- 2. Ketika data primary key di tabel kelas diubah, data foreign key siswa yang menggunakan kode kelas tersebut juga ikut berubah
 ALTER TABLE "Siswa"
